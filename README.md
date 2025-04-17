@@ -43,7 +43,7 @@ else {
 
 ### Fixing a Known Issue with Next.js
 
-If you are running Next.js on the server and encountering a 'module not found' error after you installed `@minilibs/env-parser`, you can resolve this by adding the following code to your next.config.js file:
+If you are running Next.js on the server and encountering a 'module not found' error after you installed `@minilibs/env-parser`, you can resolve this by adding the following code to your `next.config.js` file:
 
 ```js
 const nextConfig = {
